@@ -29,7 +29,7 @@ header {
 header h1 {
   display: inline-block;
   font-family: Arial black;
-  color: #889C5B;
+  color: #778A50;
   font-size: 44px;
   line-height: 36px;
   margin-top: 53px;
@@ -94,7 +94,7 @@ header .join {
 .nav ul {
   width: 940px;
   padding: 0;
-  background-color: #889C5B;
+  background-color: #778A50;
   box-sizing: border-box;
 }
 .nav ul li{
@@ -115,13 +115,14 @@ header .join {
 /*Sidebar Style*/
 .veg_leftbar {
   width: 445px;
-  height: 45px;
+  /*height: 45px;*/
   float: left;
   box-sizing: border-box;
-  border:solid #FFF;
+  /*border:solid #FFF;*/
 }
 
-.veg_leftbar h1 {
+.veg_leftbar header h1 {
+  width: 445px;
   font-family: Arial Black;
   color: #EDF2C5;
   font-size: 16px;
@@ -145,35 +146,58 @@ header .join {
     margin-top: 15px;
     margin-bottom: 35px;
     box-sizing: border-box;
-    display: inline-block;
-    float: left;
+    display: inline;
+    /*float: left;*/
 }
 
 
 .contact_rightbar {
   width: 445px;
-  height: 45px;
-  border:solid #FFF;
+  /*height: 45px;*/
+  /*border:solid #FFF;*/
   box-sizing: border-box;
   float: right;
+
 }
 
-.contact_rightbar h1{
-font-family: Arial Black;
-color: #EDF2C5;
-font-size: 16px;
-padding: 17px 0px 16px 30px;
-border: 0px;
-margin: 0px;
-background-color: #778A50;
-box-sizing: border-box;
+.contact_rightbar header h1{
+  width: 445px;
+  font-family: Arial Black;
+  color: #EDF2C5;
+  font-size: 16px;
+  padding: 17px 0px 16px 30px;
+  border: 0px;
+  margin: 0px;
+  background-color: #778A50;
+  box-sizing: border-box;
 }
-.contact_rightbar p {
-  font-family: "ArialMT Regular"
+
+.contact_rightbar .first_pra {
+  border-bottom: 1px;
+  border-color: #7D7D7D;
+}
+
+.contact_rightbar article {
+  margin-top: 15px;
+  background-color: #F7FBDA;
+}
+
+.contact_rightbar .first_pra p {
+  font-family: "ArialMT Regular";
   color:  #7D7D7D;
-  line-height: 1.33px;
   font-size: 12px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 15px;
+  /*line-height: 1.33px;*/
+}
 
+.contact_rightbar p {
+  font-family: "ArialMT Regular";
+  color:  #7D7D7D;
+  font-size: 12px;
+  padding-top: 16px;
+  padding-left: 15px;
 }
 
 /*Footer Style*/
@@ -182,10 +206,13 @@ footer {
   height: 60px;*/
   box-sizing: border-box;
 }
-footer p {
-  background-color: #889C5B;
-  font-family: Arial Black;
+footer h1 {
+  background-color: #778A50;
+  font-family: "ArialMT Regular";
   color: #EDF2C5;
   font-size: 12px;
-  padding: 24px 463px;
+  padding-top: 24px;
+  padding-right: 463px;
+  padding-bottom: 25px;
+  padding-left: 463px;
 }
