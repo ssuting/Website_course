@@ -133,12 +133,11 @@ header .join {
   box-sizing: border-box;
 }
 
-.veg_leftbar div {
-  width:140px;
-  box-sizing: border-box;
+.pic {
+  width: 500px;
 }
 
-.sidebar img {
+.pic img {
     width: 140px;
     height: 140px;
     padding: 0px;
@@ -146,8 +145,8 @@ header .join {
     margin-top: 15px;
     margin-bottom: 35px;
     box-sizing: border-box;
-    display: inline;
-    /*float: left;*/
+    display: inline-block;
+    float: left;
 }
 
 
