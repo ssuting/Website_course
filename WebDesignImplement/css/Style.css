@@ -1,0 +1,144 @@
+/*Global style*/
+html{
+  /*max-width: 940px;*/
+  padding: 0;
+  margin: 0;
+}
+
+.clear::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*Header Style*/
+header{
+  /*position: relative;*/
+}
+header .logo img{
+  width: 162px;
+  height: 43px;
+  display: inline-block;
+  position: relative;
+  z-index: 99;
+  margin-left: 16px;
+  margin-top: 5px;
+}
+
+header .logo{
+  display: inline-block;
+  float: left;
+}
+/*Navigation Style*/
+.main_pic{
+  position: relative;
+}
+.main_pic img{
+  /*width: 960px;*/
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 451px;
+  /*box-sizing: border-box;*/
+}
+
+.main_pic h1{
+  position: absolute;
+  z-index: 99;
+  top: 50%;
+  left: 50%;
+  margin-left: -300px;
+  margin-top: -70px;
+  color: #fff;
+  font-size: 40px;
+  font-family: "Arial" bold;
+}
+
+header .nav ul{
+  /*max-width: 960px;*/
+  height: 60px;
+  background-color: rgba(221, 221, 221, 1);
+  padding: 0;
+  float: left;
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+header .nav ul li{
+  font-family: Arial;
+  color:#FFF;
+  font-size: 18px;
+  list-style: none;
+  float: right;
+  margin-right: 67px;
+  display: inline;
+  margin-top: 20px;
+}
+/*Article Style*/
+article h2{
+  font-family: "Arial";
+  font-weight: bold;
+  font-size: 32px;
+  margin-left: 60px;
+}
+
+article h3{
+  font-family: "Arial";
+  font-size: 24px;
+  margin-left: 60px;
+}
+
+article ul{
+  margin-left: 60px;
+}
+article li{
+  font-family: "Arial";
+  font-size: 24px;
+  color: #fff;
+  list-style: none;
+  display: inline-block;
+  float: left;
+  /*margin-left: 180px;*/
+  width: 33%;
+}
+.Europe_pic{
+  margin-left: 105px;
+  /*width: 100%;*/
+}
+
+.Asia_pic{
+  margin-left: 105px;
+  /*width: 100%;*/
+}
+
+.Europe_pic img{
+  /*width: 255px;*/
+  width: 25%;
+  height: 155px;
+  margin-right: 60px;
+}
+
+.Asia_pic img{
+  /*width: 255px;*/
+  width: 25%;
+  height: 155px;
+  margin-right: 60px;
+}
+
+/*Footer Stytle*/
+footer h3{
+  display: inline;
+  margin-left: 40%;
+}
+footer .icon{
+  float: right;
+}
+
+footer .icon img{
+  width: 30px;
+  height: 30px;
+}
